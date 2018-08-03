@@ -1,7 +1,7 @@
 const express = require('express')
 
 const commands = require('./commands')
-const {WX_TOKEN} = require('./config')
+const {WX_TOKEN} = require('../config')
 
 const mp = require('wechat-mp')(WX_TOKEN)
 

@@ -2,7 +2,7 @@ const crypto = require('crypto')
 const request = require('supertest')
 
 const webot = require('./webot')
-const {WX_TOKEN} = require('./config')
+const {WX_TOKEN} = require('../config')
 
 const USER = 'odQ_C0gylEtCpMTORAqxQoLd1Zmg'
 const TIMESTAMP = 1533288151

@@ -1,9 +1,9 @@
 const BigNumber = require('bignumber.js')
-const Mobius = require('mobius-client-js')
+const Mobius = require('@mobius-network/mobius-client-js')
 const StellarSdk = require('stellar-sdk')
 
 const {KeyPair, Operation} = StellarSdk
-const {STELLAR_NETWORK, TIPBOT_KEY} = require('./config')
+const {STELLAR_NETWORK, TIPBOT_KEY} = require('../../config')
 
 const command = `/create`
 const commandDescription = `/create <funding_address> <amount>`
