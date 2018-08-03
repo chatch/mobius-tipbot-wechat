@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`/help command returns help text 1`] = `
-"<xml><ToUserName><![CDATA[odQ_C0gylEtCpMTORAqxQoLd1Zmg]]></ToUserName><FromUserName><![CDATA[gh_97f347ad4987]]></FromUserName><CreateTime>1533288151</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[Hi, odQ_C0gylEtCpMTORAqxQoLd1Zmg, I am Mobius TipBot!
+"<xml><ToUserName><![CDATA[odQ_C0gylEtCpMTORAqxQoLd1Zmg]]></ToUserName><FromUserName><![CDATA[gh_97f347ad4987]]></FromUserName><CreateTime>redacted :)</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[Hi, odQ_C0gylEtCpMTORAqxQoLd1Zmg, I am Mobius TipBot!
 
 /balance will show your earned tips amount.
 
@@ -18,6 +18,6 @@ If you need to create a wallet see the Mobius StellarTerm Wallet Guide! https://
 `;
 
 exports[`unknown command returns error message 1`] = `
-"<xml><ToUserName><![CDATA[odQ_C0gylEtCpMTORAqxQoLd1Zmg]]></ToUserName><FromUserName><![CDATA[gh_97f347ad4987]]></FromUserName><CreateTime>1533288151</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[Command [/coffee] unknown.
+"<xml><ToUserName><![CDATA[odQ_C0gylEtCpMTORAqxQoLd1Zmg]]></ToUserName><FromUserName><![CDATA[gh_97f347ad4987]]></FromUserName><CreateTime>redacted :)</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[Command [/coffee] unknown.
 Use /help to see a list of commands.]]></Content></xml>"
 `;
