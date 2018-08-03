@@ -51,12 +51,13 @@ const stripCreateTime = xml =>
     '<CreateTime>redacted :)</CreateTime>'
   )
 
+const rspText = rsp => stripCreateTime(rsp.text)
+
 test('unknown command returns error message', () =>
-  sendMsg('/coffee').then(rsp =>
-    expect(stripCreateTime(rsp.text)).toMatchSnapshot()
-  ))
+  sendMsg('/coffee').then(rsp => expect(rspText(rsp)).toMatchSnapshot()))
 
 test('/help command returns help text', () =>
-  sendMsg('/help').then(rsp =>
-    expect(stripCreateTime(rsp.text)).toMatchSnapshot()
-  ))
+  sendMsg('/help').then(rsp => expect(rspText(rsp)).toMatchSnapshot()))
+
+test('/start command returns help text', () =>
+  sendMsg('/start').then(rsp => expect(rspText(rsp)).toMatchSnapshot()))
