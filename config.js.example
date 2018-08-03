@@ -1,3 +1,5 @@
 {
-  WX_TOKEN: '<set in weixin mp dashboard>'
+  STELLAR_NETWORK: 'testnet',
+  TIPBOT_KEY: '<tip bot public key>',
+  WX_TOKEN: '<set in weixin mp dashboard>',
 }
